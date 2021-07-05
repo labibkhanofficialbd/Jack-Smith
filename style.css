@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+li{
+    display: inline-block;
+    padding-left: 20px;
+    position: relative;
+    margin-top: 30px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    
+}
+ul{
+    display: flex;
+    position: absolute;
+    margin-left: 900px;
+}
+.top-banner{
+    background-image: url(img/top-banner.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.name{
+    color: #FF1D9B;
+    font-size: 60px;
+}
+.first-img{
+    width: 70%;
+}
+.first-sec{
+    display: flex;
+    padding-top: 150px;
+    margin-left: 150px;
+}
+.top-img{
+    padding-left: 80px;
+}
+.first-p{
+    padding-bottom: 30px;
+}
+.btn{
+    background: #FF1D9B;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.second-sec{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bio-name{
+    font-size: 60px;
+}
+.secnd-content{
+    padding-top:100px;
+    margin-right: 50px;
+}
+.middle-banner{
+    background-image: url(img/second-banner.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+#p{
+    padding-top: 10px;
+}
+.project{
+    display: flex;
+    margin-left: 30px;
+    padding-top: 60px;
+    padding-bottom:150px
+}
+.project img{
+    width: 30%;
+    padding-left: 30px;
+    
+}
+.work-name{
+    font-size: 60px;
+    text-align: center;
+}
+.work{
+    margin-top: 100px;
+    
+    /* padding-top: 30px; */
+}
+.work-sec{
+    background-image: url(img/third-banner\ -\ Copy.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
